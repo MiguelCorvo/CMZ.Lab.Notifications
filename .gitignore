@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/CMZ.Lab.Application.DTO/obj
+/CMZ.Lab.Vertical.Mapper/obj
+/CMZ.Lab.Services/obj
+/CMZ.Lab.Infrastructure.Data/obj
+/CMZ.Lab.Domain.Interface/obj
+/CMZ.Lab.Domain.Entity/obj
+/CMZ.Lab.Application.Main/obj
+/CMZ.Lab.Application.Interface/obj

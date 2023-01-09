@@ -11,3 +11,11 @@
 /CMZ.Lab.Application.Main/obj
 /CMZ.Lab.Application.Interface/obj
 /.vs
+/CMZ.Lab.Vertical.Mapper/bin/Debug/net6.0
+/CMZ.Lab.Services/bin/Debug/net6.0
+/CMZ.Lab.Infrastructure.Data/bin/Debug/net6.0
+/CMZ.Lab.Domain.Interface/bin/Debug/net6.0
+/CMZ.Lab.Domain.Entity/bin/Debug/net6.0
+/CMZ.Lab.Application.Main/bin/Debug/net6.0
+/CMZ.Lab.Application.Interface/bin/Debug/net6.0
+/CMZ.Lab.Application.DTO/bin/Debug/net6.0

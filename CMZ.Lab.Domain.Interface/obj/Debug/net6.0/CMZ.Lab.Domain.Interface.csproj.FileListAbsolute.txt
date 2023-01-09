@@ -1,0 +1,15 @@
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\bin\Debug\net6.0\CMZ.Lab.Domain.Interface.deps.json
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\bin\Debug\net6.0\CMZ.Lab.Domain.Interface.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\bin\Debug\net6.0\CMZ.Lab.Domain.Interface.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\bin\Debug\net6.0\CMZ.Lab.Domain.Entity.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\bin\Debug\net6.0\CMZ.Lab.Domain.Entity.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.csproj.AssemblyReference.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.AssemblyInfoInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.AssemblyInfo.cs
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.csproj.CoreCompileInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.csproj.CopyComplete
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\refint\CMZ.Lab.Domain.Interface.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\CMZ.Lab.Domain.Interface.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Interface\obj\Debug\net6.0\ref\CMZ.Lab.Domain.Interface.dll

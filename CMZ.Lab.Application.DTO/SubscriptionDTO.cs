@@ -27,7 +27,7 @@
         /// <value>
         /// The type of the name activity.
         /// </value>
-        public string NameActivityType { get; set;  }
+        public string NameActivityType { get; set; }
 
         /// <summary>
         /// Gets or sets the is active.

@@ -1,0 +1,12 @@
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\bin\Debug\net6.0\CMZ.Lab.Domain.Entity.deps.json
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\bin\Debug\net6.0\CMZ.Lab.Domain.Entity.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\bin\Debug\net6.0\CMZ.Lab.Domain.Entity.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.csproj.AssemblyReference.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.AssemblyInfoInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.AssemblyInfo.cs
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.csproj.CoreCompileInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\refint\CMZ.Lab.Domain.Entity.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\CMZ.Lab.Domain.Entity.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Domain.Entity\obj\Debug\net6.0\ref\CMZ.Lab.Domain.Entity.dll

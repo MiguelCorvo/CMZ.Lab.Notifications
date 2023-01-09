@@ -1,8 +1,11 @@
+using CMZ.Lab.Application.DTO;
 using CMZ.Lab.Application.Interface;
 using CMZ.Lab.Application.Main;
+using CMZ.Lab.Application.Main.Validations;
 using CMZ.Lab.Domain.Interface.UnitOrWork;
 using CMZ.Lab.Infrastructure.Data;
 using CMZ.Lab.Vertical.Mapper;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
@@ -46,6 +49,8 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 // Injection for services.
+builder.Services.AddScoped<IValidator<CreateSubscriptionDTO>, SubscriptionDTOValidator>();
+builder.Services.AddScoped<IValidator<CreateSubscriptionsDTO>, SubscriptionsDTOValidator>();
 builder.Services.AddScoped(typeof(IUsersService), typeof(UsersService));
 builder.Services.AddScoped(typeof(ISubscriptionsService), typeof(SubscriptionsService));
 

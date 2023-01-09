@@ -3,6 +3,7 @@ using CMZ.Lab.Application.DTO;
 using CMZ.Lab.Application.Interface;
 using CMZ.Lab.Domain.Entity;
 using CMZ.Lab.Domain.Interface.UnitOrWork;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,11 @@ namespace CMZ.Lab.Application.Main
         /// The mapper
         /// </summary>
         private readonly IMapper _mapper;
+
+        /// <summary>
+        /// The validator
+        /// </summary>
+        private readonly IValidator<CreateSubscriptionsDTO> _validator;
         #endregion
 
         #region Constructor
@@ -34,10 +40,12 @@ namespace CMZ.Lab.Application.Main
         /// </summary>
         /// <param name="unitOfWork">The unit of work.</param>
         /// <param name="mapper">The mapper.</param>
-        public SubscriptionsService(IUnitOfWork unitOfWork, IMapper mapper)
-        { 
+        /// <param name="validator">The validator.</param>
+        public SubscriptionsService(IUnitOfWork unitOfWork, IMapper mapper, IValidator<CreateSubscriptionsDTO> validator)
+        {
             _unitOfWork = unitOfWork;
-            _mapper = mapper;   
+            _mapper = mapper;
+            _validator = validator;
         }
         #endregion
 
@@ -48,7 +56,7 @@ namespace CMZ.Lab.Application.Main
         /// <param name="id">The identifier.</param>
         /// <returns></returns>
         public async Task<IEnumerable<Subscription>> GetSubscriptionsByUserId(int id)
-        {            
+        {
             return await _unitOfWork.SubscriptionsRepository.GetSubscriptionsByUserId(id);
         }
 
@@ -77,7 +85,19 @@ namespace CMZ.Lab.Application.Main
                 return false;
             else
             {
-                User user = await _unitOfWork.UsersRepository.Get(x=>x.IdUser == userId);
+                // Validations
+                var validatioResult = await _validator.ValidateAsync(new CreateSubscriptionsDTO() { CreateSubscription = subscriptions.ToList() });
+                if (!validatioResult.IsValid)
+                {
+                    string errors = string.Empty;
+                    foreach (var failure in validatioResult.Errors)
+                    {
+                        errors = errors + failure.ErrorMessage;                         
+                    }
+                    throw new Exception(errors);
+                }
+
+                User user = await _unitOfWork.UsersRepository.Get(x => x.IdUser == userId);
                 if (user == null) return false;
 
                 // Updates
@@ -87,10 +107,10 @@ namespace CMZ.Lab.Application.Main
                     var subscriptionsUser = await _unitOfWork.SubscriptionsRepository.GetSubscriptionsByUserId(userId);
                     foreach (CreateSubscriptionDTO item in subscriptionsDTOToUpdate)
                     {
-                        Subscription match = subscriptionsUser.Where(x=>x.IdSubscription == item.IdSubscription).FirstOrDefault();
-                        if (match != null) 
+                        Subscription match = subscriptionsUser.Where(x => x.IdSubscription == item.IdSubscription).FirstOrDefault();
+                        if (match != null)
                         {
-                            match = _mapper.Map(item, match);                            
+                            match = _mapper.Map(item, match);
                             _unitOfWork.SubscriptionsRepository.Update(match);
                         }
                     }
@@ -108,7 +128,7 @@ namespace CMZ.Lab.Application.Main
                     }
                     await _unitOfWork.SubscriptionsRepository.AddRangeAsync(subscriptionsToInsert);
                 }
-                
+
                 // _unitOfWork.Commit();  Don't update Database.
                 return true;
             }

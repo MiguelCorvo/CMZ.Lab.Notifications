@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMZ.Lab.Domain.Entity\CMZ.Lab.Domain.Entity.csproj" />
+    <ProjectReference Include="..\CMZ.Lab.Domain.Interface\CMZ.Lab.Domain.Interface.csproj" />
+    <ProjectReference Include="..\CMZ.Lab.Infrastructure.Data\CMZ.Lab.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

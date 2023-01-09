@@ -1,0 +1,10 @@
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\bin\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.deps.json
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\bin\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\bin\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.csproj.AssemblyReference.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.AssemblyInfoInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.AssemblyInfo.cs
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.csproj.CoreCompileInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Vertical.Mapper\obj\Debug\netstandard2.1\CMZ.Lab.Vertical.Mapper.pdb

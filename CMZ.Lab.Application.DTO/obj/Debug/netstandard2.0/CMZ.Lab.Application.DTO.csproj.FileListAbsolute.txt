@@ -1,0 +1,10 @@
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.csproj.AssemblyReference.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.AssemblyInfoInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.AssemblyInfo.cs
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\bin\Debug\netstandard2.0\CMZ.Lab.Application.DTO.deps.json
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\bin\Debug\netstandard2.0\CMZ.Lab.Application.DTO.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\bin\Debug\netstandard2.0\CMZ.Lab.Application.DTO.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.DTO\obj\Debug\netstandard2.0\CMZ.Lab.Application.DTO.pdb

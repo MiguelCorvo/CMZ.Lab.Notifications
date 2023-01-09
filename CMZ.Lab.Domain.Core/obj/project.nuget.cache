@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xTXFhmJqIXAwKB1vq0IgM08brS91/T9th9CoB7fBXYlNkYd8WazJu7BJ9H7/mpmbpgCPdwsGRORGkZFYvLUX9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\miguel.corvo\\source\\repos\\CMZ.Lab.Notifications\\CMZ.Lab.Domain.Core\\CMZ.Lab.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miguel.corvo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\miguel.corvo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

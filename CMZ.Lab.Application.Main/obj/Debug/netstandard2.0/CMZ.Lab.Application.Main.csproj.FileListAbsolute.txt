@@ -1,0 +1,10 @@
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.csproj.AssemblyReference.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.AssemblyInfoInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.AssemblyInfo.cs
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.csproj.CoreCompileInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\bin\Debug\netstandard2.0\CMZ.Lab.Application.Main.deps.json
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\bin\Debug\netstandard2.0\CMZ.Lab.Application.Main.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\bin\Debug\netstandard2.0\CMZ.Lab.Application.Main.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Application.Main\obj\Debug\netstandard2.0\CMZ.Lab.Application.Main.pdb

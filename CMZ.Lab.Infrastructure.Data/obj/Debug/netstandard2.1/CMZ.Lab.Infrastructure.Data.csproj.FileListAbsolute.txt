@@ -1,0 +1,10 @@
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\bin\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.deps.json
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\bin\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\bin\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.pdb
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.AssemblyInfo.cs
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.dll
+C:\Users\miguel.corvo\source\repos\CMZ.Lab.Notifications\CMZ.Lab.Infrastructure.Data\obj\Debug\netstandard2.1\CMZ.Lab.Infrastructure.Data.pdb

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMZ.Lab.Application.DTO\CMZ.Lab.Application.DTO.csproj" />
+    <ProjectReference Include="..\CMZ.Lab.Domain.Entity\CMZ.Lab.Domain.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

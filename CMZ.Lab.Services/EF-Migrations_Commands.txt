@@ -1,0 +1,1 @@
+﻿Add-Migration Initial -Project CMZ.Lab.Infrastructure.Data

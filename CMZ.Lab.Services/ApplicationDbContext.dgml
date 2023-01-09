@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="EntityActivityType" Category="EntityType" Annotations="Relational:Schema: GP Relational:TableName: EntityActivityTypes_TM RelationshipDiscoveryConvention:NavigationCandidates: System.Collections.Immutable.ImmutableSortedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="1149.54062899419,87.593039881448,259.967036946001,197.880608194569" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="EntityActivityType" Name="EntityActivityType" UseManualLocation="True" />
+    <Node Id="EntityActivityType.IdEntity" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1291.86099927389,183.553448076626,97.6466666666668,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdEntity (short)" MaxLength="None" Name="IdEntity" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="None" />
+    <Node Id="EntityActivityType.IdEntityActivityType" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="SqlServer:ValueGenerationStrategy: IdentityColumn" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1169.54091301037,127.593348076626,161.193333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdEntityActivityType (short)" MaxLength="None" Name="IdEntityActivityType" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="EntityActivityType.Name" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1169.54062899419,183.553448076828,92.3199999999999,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Name (string)" MaxLength="None" Name="Name" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="EntityActivityType.Subscriptions" Category="Navigation Collection" Bounds="1169.54089347962,239.513548076017,106.403333333333,25.96" Dependent="Subscription" Field="" Inverse="EntityActivityType" Label="Subscriptions (*)" Name="Subscriptions" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="List&lt;Subscription&gt;" />
+    <Node Id="IModel" Category="Model" Annotations="BaseTypeDiscoveryConvention:DerivedTypes: System.Collections.Generic.Dictionary`2[System.Type,System.Collections.Generic.List`1[Microsoft.EntityFrameworkCore.Metadata.IConventionEntityType]] Relational:MaxIdentifierLength: 128 RelationshipDiscoveryConvention:InverseNavigationCandidates: System.Collections.Generic.Dictionary`2[System.Type,System.Collections.Generic.SortedSet`1[System.Type]] SqlServer:ValueGenerationStrategy: IdentityColumn" Bounds="0.000306658689964934,47.592939881448,1576.5930180201,935.132303987324" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" Label="ApplicationDbContext" ProductVersion="6.0.0" PropertyAccessMode="PropertyAccessMode.Default" />
+    <Node Id="Notification" Category="EntityType" Annotations="Relational:Schema: GP Relational:TableName: Notifications RelationshipDiscoveryConvention:NavigationCandidates: System.Collections.Immutable.ImmutableSortedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="20.0000000000001,652.92494049199,391.58,309.8" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="Notification" Name="Notification" />
+    <Node Id="Notification.DateCreation" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40.0000000000001,860.80494049199,150.84,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="DateCreation (DateTime)" MaxLength="None" Name="DateCreation" PropertyAccessMode="PropertyAccessMode.Default" Type="DateTime" ValueGenerated="None" />
+    <Node Id="Notification.IdNotifications" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="SqlServer:ValueGenerationStrategy: IdentityColumn" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40.0000000000001,804.84494049199,121.73,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdNotifications (int)" MaxLength="None" Name="IdNotifications" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Notification.IdSubscription" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="177.313333333334,748.88494049199,120.33,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdSubscription (int)" MaxLength="None" Name="IdSubscription" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="None" />
+    <Node Id="Notification.IdSubscriptionNavigation" Category="Navigation Property" Bounds="220.84,860.80494049199,170.74,25.96" Dependent="" Field="" Inverse="Notifications" Label="IdSubscriptionNavigation (1)" Name="IdSubscriptionNavigation" Principal="Subscription" PropertyAccessMode="PropertyAccessMode.Default" Type="Subscription" />
+    <Node Id="Notification.IdSubscriptionNavigationIdSubscription" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40.0000000000001,916.76494049199,259.453333333333,25.96" Field="nofield" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="False" IsShadow="True" IsUnicode="True" Label="IdSubscriptionNavigationIdSubscription (int?)" MaxLength="None" Name="IdSubscriptionNavigationIdSubscription" PropertyAccessMode="PropertyAccessMode.Default" Type="int?" ValueGenerated="None" />
+    <Node Id="Notification.Message" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40.0000000000001,748.88494049199,107.313333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Message (string)" MaxLength="None" Name="Message" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Notification.Read" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40.0000000000001,692.92494049199,80.8233333333334,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Read (bool)" MaxLength="None" Name="Read" PropertyAccessMode="PropertyAccessMode.Default" Type="bool" ValueGenerated="None" />
+    <Node Id="Notification.Urgent" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="150.823333333333,692.92494049199,91.1633333333334,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Urgent (bool)" MaxLength="None" Name="Urgent" PropertyAccessMode="PropertyAccessMode.Default" Type="bool" ValueGenerated="None" />
+    <Node Id="Notification.UserCreation" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="191.73,804.84494049199,129.19,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="UserCreation (string)" MaxLength="None" Name="UserCreation" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Notification.Viewed" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="271.986666666667,692.92494049199,93.2,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Viewed (bool)" MaxLength="None" Name="Viewed" PropertyAccessMode="PropertyAccessMode.Default" Type="bool" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie" Category="EntityType" Annotations="Relational:Schema: GP Relational:TableName: NotificationsFrequencies_TM RelationshipDiscoveryConvention:NavigationCandidates: System.Collections.Immutable.ImmutableSortedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="1151.73697421201,634.551650656189,404.856666666667,309.8" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="NotificationFrecuencie" Name="NotificationFrecuencie" />
+    <Node Id="NotificationFrecuencie.DateCreation" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1330.92697421201,786.471650656189,150.84,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="DateCreation (DateTime)" MaxLength="None" Name="DateCreation" PropertyAccessMode="PropertyAccessMode.Default" Type="DateTime" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.DateModification" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1353.03364087868,842.431650656189,178.326666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="DateModification (DateTime?)" MaxLength="None" Name="DateModification" PropertyAccessMode="PropertyAccessMode.Default" Type="DateTime?" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.Description" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1310.07030754535,730.511650656189,120.876666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Description (string)" MaxLength="None" Name="Description" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.IdNotificationFrequency" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="SqlServer:ValueGenerationStrategy: IdentityColumn" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1171.73697421201,898.391650656189,184.61,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdNotificationFrequency (short)" MaxLength="None" Name="IdNotificationFrequency" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="NotificationFrecuencie.ListOrder" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1294.05697421201,674.551650656189,106.133333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="ListOrder (short)" MaxLength="None" Name="ListOrder" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.Name" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1171.73697421201,674.551650656189,92.3199999999999,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Name (string)" MaxLength="None" Name="Name" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.Selectable" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1171.73697421201,730.511650656189,108.333333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Selectable (bool)" MaxLength="None" Name="Selectable" PropertyAccessMode="PropertyAccessMode.Default" Type="bool" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.Subscriptions" Category="Navigation Collection" Bounds="1430.19030754535,674.551650656189,106.403333333333,25.96" Dependent="Subscription" Field="" Inverse="NotificationFrecuencie" Label="Subscriptions (*)" Name="Subscriptions" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="List&lt;Subscription&gt;" />
+    <Node Id="NotificationFrecuencie.UserCreation" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1171.73697421201,786.471650656189,129.19,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="UserCreation (string)" MaxLength="None" Name="UserCreation" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="NotificationFrecuencie.UserModification" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="1171.73697421201,842.431650656189,151.296666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="UserModification (string)" MaxLength="None" Name="UserModification" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Subscription" Category="EntityType" Annotations="Relational:Schema: GP Relational:TableName: Subscriptions RelationshipDiscoveryConvention:NavigationCandidates: System.Collections.Immutable.ImmutableSortedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="546.710763028027,495.76,472.963333333334,365.76" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="Subscription" Name="Subscription" />
+    <Node Id="Subscription.Active" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="765.830763028027,535.76,86.8266666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Active (bool)" MaxLength="None" Name="Active" PropertyAccessMode="PropertyAccessMode.Default" Type="bool" ValueGenerated="None" />
+    <Node Id="Subscription.DateCreation" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="566.710763028027,759.6,150.84,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="DateCreation (DateTime)" MaxLength="None" Name="DateCreation" PropertyAccessMode="PropertyAccessMode.Default" Type="DateTime" ValueGenerated="None" />
+    <Node Id="Subscription.EntityActivityType" Category="Navigation Property" Bounds="725.900763028027,703.64,130.25,25.96" Dependent="" Field="" Inverse="Subscriptions" Label="EntityActivityType (1)" Name="EntityActivityType" Principal="EntityActivityType" PropertyAccessMode="PropertyAccessMode.Default" Type="EntityActivityType" />
+    <Node Id="Subscription.IdEntity" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="882.657429694694,535.76,97.6466666666666,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdEntity (short)" MaxLength="None" Name="IdEntity" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="None" />
+    <Node Id="Subscription.IdEntityActivityType" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="566.710763028027,815.56,161.193333333333,25.9599999999999" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdEntityActivityType (short)" MaxLength="None" Name="IdEntityActivityType" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="None" />
+    <Node Id="Subscription.IdEntityObject" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="717.040763028028,647.68,124.53,25.9599999999999" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="IdEntityObject (int?)" MaxLength="None" Name="IdEntityObject" PropertyAccessMode="PropertyAccessMode.Default" Type="int?" ValueGenerated="None" />
+    <Node Id="Subscription.IdNotificationFrequency" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="566.710763028027,591.72,184.61,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdNotificationFrequency (short)" MaxLength="None" Name="IdNotificationFrequency" PropertyAccessMode="PropertyAccessMode.Default" Type="short" ValueGenerated="None" />
+    <Node Id="Subscription.IdSubscription" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="SqlServer:ValueGenerationStrategy: IdentityColumn" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="566.710763028027,647.68,120.33,25.9599999999999" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdSubscription (int)" MaxLength="None" Name="IdSubscription" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Subscription.IdUser" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="657.494096361361,535.76,78.3366666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdUser (int)" MaxLength="None" Name="IdUser" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="None" />
+    <Node Id="Subscription.NotificationFrecuencie" Category="Navigation Property" Bounds="747.550763028028,759.6,155.52,25.96" Dependent="" Field="" Inverse="Subscriptions" Label="NotificationFrecuencie (1)" Name="NotificationFrecuencie" Principal="NotificationFrecuencie" PropertyAccessMode="PropertyAccessMode.Default" Type="NotificationFrecuencie" />
+    <Node Id="Subscription.Notifications" Category="Navigation Collection" Bounds="781.320763028027,591.72,102.71,25.9599999999999" Dependent="Notification" Field="" Inverse="IdSubscriptionNavigation" Label="Notifications (*)" Name="Notifications" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="List&lt;Notification&gt;" />
+    <Node Id="Subscription.NotifyByEmail" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="871.570763028028,647.68,128.103333333333,25.9599999999999" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="NotifyByEmail (bool)" MaxLength="None" Name="NotifyByEmail" PropertyAccessMode="PropertyAccessMode.Default" Type="bool" ValueGenerated="None" />
+    <Node Id="Subscription.User" Category="Navigation Property" Bounds="566.710763028027,535.76,60.7833333333333,25.96" Dependent="" Field="" Inverse="Subscriptions" Label="User (1)" Name="User" Principal="User" PropertyAccessMode="PropertyAccessMode.Default" Type="User" />
+    <Node Id="Subscription.UserCreation" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="566.710763028027,703.64,129.19,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="UserCreation (string)" MaxLength="None" Name="UserCreation" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User" Category="EntityType" Annotations="" BaseClass="" Bounds="163.450238618786,230.472827246924,237.286666666667,197.88" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="User" LayoutSettings="ForceDirected" Name="User" UseManualLocation="True" />
+    <Node Id="User.Email" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="291.786848148635,326.433260510358,88.95,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Email (string)" MaxLength="None" Name="Email" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User.IdUser" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="SqlServer:ValueGenerationStrategy: IdentityColumn" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="183.450288191766,326.433260510358,78.3366666666666,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="IdUser (int)" MaxLength="None" Name="IdUser" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="User.IsActive" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="183.450232446324,382.393251965436,100.493333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="IsActive (bool?)" MaxLength="None" Name="IsActive" PropertyAccessMode="PropertyAccessMode.Default" Type="bool?" ValueGenerated="None" />
+    <Node Id="User.Subscriptions" Category="Navigation Collection" Bounds="183.450211389195,270.47326905528,106.403333333333,25.96" Dependent="Subscription" Field="" Inverse="User" Label="Subscriptions (*)" Name="Subscriptions" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="List&lt;Subscription&gt;" />
+  </Nodes>
+  <Links>
+    <Link Source="EntityActivityType" Target="EntityActivityType.IdEntity" Category="Contains" />
+    <Link Source="EntityActivityType" Target="EntityActivityType.IdEntityActivityType" Category="Contains" />
+    <Link Source="EntityActivityType" Target="EntityActivityType.Name" Category="Contains" />
+    <Link Source="EntityActivityType" Target="EntityActivityType.Subscriptions" Category="Contains" />
+    <Link Source="IModel" Target="EntityActivityType" Category="Contains" />
+    <Link Source="IModel" Target="Notification" Category="Contains" />
+    <Link Source="IModel" Target="NotificationFrecuencie" Category="Contains" />
+    <Link Source="IModel" Target="Subscription" Category="Contains" />
+    <Link Source="IModel" Target="User" Category="Contains" />
+    <Link Source="Notification" Target="Notification.DateCreation" Category="Contains" />
+    <Link Source="Notification" Target="Notification.IdNotifications" Category="Contains" />
+    <Link Source="Notification" Target="Notification.IdSubscription" Category="Contains" />
+    <Link Source="Notification" Target="Notification.IdSubscriptionNavigation" Category="Contains" />
+    <Link Source="Notification" Target="Notification.IdSubscriptionNavigationIdSubscription" Category="Contains" />
+    <Link Source="Notification" Target="Notification.Message" Category="Contains" />
+    <Link Source="Notification" Target="Notification.Read" Category="Contains" />
+    <Link Source="Notification" Target="Notification.Urgent" Category="Contains" />
+    <Link Source="Notification" Target="Notification.UserCreation" Category="Contains" />
+    <Link Source="Notification" Target="Notification.Viewed" Category="Contains" />
+    <Link Source="Notification" Target="Subscription" Category="Foreign Key" Annotations="" Bounds="411.58,734.479597032427,126.355336192095,28.7683057607001" From="Notification.IdSubscriptionNavigationIdSubscription" IsUnique="False" Label="1:*" LabelBounds="467.277008111269,728.902472783231,14.0733333333333,15.96" Name="Notification -&gt; Subscription" To="Subscription.IdSubscription" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.DateCreation" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.DateModification" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.Description" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.IdNotificationFrequency" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.ListOrder" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.Name" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.Selectable" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.Subscriptions" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.UserCreation" Category="Contains" />
+    <Link Source="NotificationFrecuencie" Target="NotificationFrecuencie.UserModification" Category="Contains" />
+    <Link Source="Subscription" Target="EntityActivityType" Category="Foreign Key" Annotations="" Bounds="967.642575685629,291.810348582384,205.70069432841,203.949651417616" From="Subscription.IdEntityActivityType" IsUnique="False" Label="1:*" LabelBounds="1055.01143384842,376.404928673543,14.0733333333333,15.96" Name="Subscription -&gt; EntityActivityType" To="EntityActivityType.IdEntityActivityType" />
+    <Link Source="Subscription" Target="NotificationFrecuencie" Category="Foreign Key" Annotations="" Bounds="1019.67409636136,724.535216480167,123.227728599051,23.9154407194898" From="Subscription.IdNotificationFrequency" IsUnique="False" Label="1:*" LabelBounds="1074.63233465515,716.532253313278,14.0733333333337,15.96" Name="Subscription -&gt; NotificationFrecuencie" To="NotificationFrecuencie.IdNotificationFrequency" />
+    <Link Source="Subscription" Target="Subscription.Active" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.DateCreation" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.EntityActivityType" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.IdEntity" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.IdEntityActivityType" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.IdEntityObject" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.IdNotificationFrequency" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.IdSubscription" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.IdUser" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.NotificationFrecuencie" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.Notifications" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.NotifyByEmail" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.User" Category="Contains" />
+    <Link Source="Subscription" Target="Subscription.UserCreation" Category="Contains" />
+    <Link Source="Subscription" Target="User" Category="Foreign Key" Annotations="" Bounds="408.120651539401,417.243960793836,138.590111488626,96.5865957562615" From="Subscription.IdUser" IsUnique="False" Label="1:*" LabelBounds="462.198840521021,467.178091172845,14.0733333333333,15.96" Name="Subscription -&gt; User" To="User.IdUser" />
+    <Link Source="User" Target="User.Email" Category="Contains" />
+    <Link Source="User" Target="User.IdUser" Category="Contains" />
+    <Link Source="User" Target="User.IsActive" Category="Contains" />
+    <Link Source="User" Target="User.Subscriptions" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contiene" Description="Indica si el origen del vínculo contiene el objeto de destino." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contenido por" IsContainment="True" OutgoingActionLabel="Contiene" />
+    <Category Id="EntityType" />
+    <Category Id="Foreign Key" />
+    <Category Id="Model" />
+    <Category Id="Navigation Collection" />
+    <Category Id="Navigation Property" />
+    <Category Id="Property Foreign" />
+    <Category Id="Property Optional" />
+    <Category Id="Property Primary" />
+    <Category Id="Property Required" />
+  </Categories>
+  <Properties>
+    <Property Id="AfterSaveBehavior" Group="Property Flags" DataType="System.String" />
+    <Property Id="Annotations" Description="Annotations" Group="Model Properties" DataType="System.String" />
+    <Property Id="BaseClass" Description="Base class" Group="Model Properties" DataType="System.String" />
+    <Property Id="BeforeSaveBehavior" Group="Property Flags" DataType="System.String" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="ChangeTrackingStrategy" Description="Change tracking strategy" Group="Model Properties" DataType="System.String" />
+    <Property Id="Dependent" Description="Dependent entity" Group="Model Properties" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Field" Description="Backing field" Group="Model Properties" DataType="System.String" />
+    <Property Id="From" Description="Target property" Group="Model Properties" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Grupo" Description="Muestra el nodo como grupo" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="Inverse" Description="Inverse entity" Group="Model Properties" DataType="System.String" />
+    <Property Id="IsAbstract" Label="IsAbstract" Description="IsAbstract" Group="Model Properties" DataType="System.Boolean" />
+    <Property Id="IsAlternateKey" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsConcurrencyToken" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsForeignKey" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsIndexed" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsPrimaryKey" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsRequired" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsShadow" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsUnicode" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsUnique" Group="Model Properties" DataType="System.Boolean" />
+    <Property Id="Label" Label="Etiqueta" Description="Etiqueta Displayable de un objeto Annotatable." DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="LayoutSettings" DataType="Microsoft.VisualStudio.Diagrams.View.GroupLayoutStyle" />
+    <Property Id="MaxLength" DataType="System.String" />
+    <Property Id="Name" Group="Model Properties" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Principal" Description="Principal entity" Group="Model Properties" DataType="System.String" />
+    <Property Id="ProductVersion" Label="Product Version" Description="EF Core product version" Group="Model Properties" DataType="System.String" />
+    <Property Id="PropertyAccessMode" Group="Property Flags" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="To" Description="Source property" Group="Model Properties" DataType="System.String" />
+    <Property Id="Type" Description="CLR data type" Group="Model Properties" DataType="System.String" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueGenerated" Group="Property Flags" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="EntityType" ValueLabel="True">
+      <Condition Expression="HasCategory('EntityType')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Required" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Required')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Navigation Property" ValueLabel="True">
+      <Condition Expression="HasCategory('Navigation Property')" />
+      <Setter Property="Background" Value="#FF990000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Navigation Collection" ValueLabel="True">
+      <Condition Expression="HasCategory('Navigation Collection')" />
+      <Setter Property="Background" Value="#FFFF3232" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Model" ValueLabel="True">
+      <Condition Expression="HasCategory('Model')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>

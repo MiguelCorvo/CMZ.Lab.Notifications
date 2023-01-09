@@ -2,14 +2,14 @@
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
 
-/CMZ.Lab.Application.DTO/obj
-/CMZ.Lab.Vertical.Mapper/obj
-/CMZ.Lab.Services/obj
-/CMZ.Lab.Infrastructure.Data/obj
-/CMZ.Lab.Domain.Interface/obj
-/CMZ.Lab.Domain.Entity/obj
-/CMZ.Lab.Application.Main/obj
-/CMZ.Lab.Application.Interface/obj
+/CMZ.Lab.Application.DTO/obj/Debug/net6.0
+/CMZ.Lab.Vertical.Mapper/obj/Debug/net6.0
+/CMZ.Lab.Services/obj/Debug/net6.0
+/CMZ.Lab.Infrastructure.Data/obj/Debug/net6.0
+/CMZ.Lab.Domain.Interface/obj/Debug/net6.0
+/CMZ.Lab.Domain.Entity/obj/Debug/net6.0
+/CMZ.Lab.Application.Main/obj/Debug/net6.0
+/CMZ.Lab.Application.Interface/obj/Debug/net6.0
 /.vs
 /CMZ.Lab.Vertical.Mapper/bin/Debug/net6.0
 /CMZ.Lab.Services/bin/Debug/net6.0
@@ -19,3 +19,4 @@
 /CMZ.Lab.Application.Main/bin/Debug/net6.0
 /CMZ.Lab.Application.Interface/bin/Debug/net6.0
 /CMZ.Lab.Application.DTO/bin/Debug/net6.0
+/.vs/CMZ.Lab.Notifications/v17/.suo

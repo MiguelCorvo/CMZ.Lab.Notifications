@@ -30,6 +30,19 @@
           "lib/net6.0/ErikEJ.EntityFrameworkCore.6.DgmlBuilder.dll": {}
         }
       },
+      "FluentValidation/11.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -854,6 +867,29 @@
         "erikej.entityframeworkcore.dgmlbuilder.6.0.0.nupkg.sha512",
         "erikej.entityframeworkcore.dgmlbuilder.nuspec",
         "lib/net6.0/ErikEJ.EntityFrameworkCore.6.DgmlBuilder.dll"
+      ]
+    },
+    "FluentValidation/11.4.0": {
+      "sha512": "WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "type": "package",
+      "path": "fluentvalidation/11.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -2050,7 +2086,8 @@
       "CMZ.Lab.Application.Interface >= 1.0.0",
       "CMZ.Lab.Domain.Entity >= 1.0.0",
       "CMZ.Lab.Domain.Interface >= 1.0.0",
-      "CMZ.Lab.Infrastructure.Data >= 1.0.0"
+      "CMZ.Lab.Infrastructure.Data >= 1.0.0",
+      "FluentValidation >= 11.4.0"
     ]
   },
   "packageFolders": {
@@ -2114,6 +2151,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[12.0.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.4.0, )"
           }
         },
         "imports": [

@@ -1,6 +1,7 @@
 ﻿using CMZ.Lab.Application.DTO;
 using CMZ.Lab.Application.Interface;
 using CMZ.Lab.Domain.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CMZ.Lab.Services.Controllers
@@ -9,8 +10,10 @@ namespace CMZ.Lab.Services.Controllers
     /// Subscription Controller
     /// </summary>
     /// <seealso cref="Microsoft.AspNetCore.Mvc.Controller" />
+    
+    [Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")]   
     public class SubscriptionController : Controller
     {
         /// <summary>
